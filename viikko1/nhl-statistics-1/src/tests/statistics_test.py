@@ -1,6 +1,14 @@
 import unittest
 from statistics import Statistics
 from player import Player
+from enum import Enum
+
+
+class SortBy(Enum):
+    POINTS = 1
+    GOALS = 2
+    ASSISTS = 3
+
 
 class PlayerReaderStub:
     def get_players(self):
@@ -38,4 +46,14 @@ class TestStatistics(unittest.TestCase):
         top_two = list(map(str, top_two))
         stub_top_two = ['Gretzky EDM 35 + 89 = 124', 'Lemieux PIT 45 + 54 = 99']
         self.assertCountEqual(top_two, stub_top_two, "Top player lists are not the same")
+
+    def test_top_player_SortBy(self):
+        top_assist = self.statistics.top(1, SortBy.ASSISTS)
+        self.assertEqual(str(top_assist[0]), 'Gretzky EDM 35 + 89 = 124', "top SortBy assists failed")
+
+        top_goals = self.statistics.top(1, SortBy.GOALS)
+        self.assertEqual(str(top_goals[0]), 'Lemieux PIT 45 + 54 = 99', "top SortBy goals failed")
+        
+        top_points = self.statistics.top(1, SortBy.POINTS)
+        self.assertEqual(str(top_points[0]), 'Gretzky EDM 35 + 89 = 124', "top SortBy points failed")
 
