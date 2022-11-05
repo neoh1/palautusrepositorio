@@ -1,10 +1,9 @@
 # Ohjelmistotuotanto palautusrepositorio
 
 ## viikko1
-  [test](laskarit/viikko1/test)
-  riippuvuuksien-injektointi-1
+  [riippuvuuksien-injektointi-1](viikko1/riippuvuuksien-injektointi-1)
  
-  nhl-statistics-1
+  [nhl-statistics-1](viikko1/nhl-statistics-1)
 ## viikko2
   poetry-web
  
