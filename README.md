@@ -5,11 +5,13 @@
  
   [nhl-statistics-1](viikko1/nhl-statistics-1)
 ## viikko2
-  poetry-web
+
+  [poetry-web](viikko2/poetry-web)
  
-  project-reader
+  [project-reader](viikko2/project-reader)
  
-  verkkokauppa-1
+  [verkkokauppa-1](viikko2/verkkokauppa-1)
+
 ## viikko3
   nhl-reader
  
