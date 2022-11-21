@@ -16,11 +16,20 @@ Open And Configure Browser
     Maximize Browser Window
     Set Selenium Speed  ${DELAY}
 
+Register Page Should Be Open
+    Title Should Be  Register
+    
 Login Page Should Be Open
     Title Should Be  Login
 
 Main Page Should Be Open
     Title Should Be  Ohtu Application main page
 
+Go To Register Page
+    Go To  ${REGISTERL URL}
+
 Go To Login Page
     Go To  ${LOGIN URL}
+
+Go To Main Page
+    Go To  ${HOME URL}
