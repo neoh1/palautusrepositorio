@@ -26,11 +26,7 @@ class UserService:
 
     def create_user(self, username, password):
         self.validate(username, password)
-
-        user = self._user_repository.create(
-            User(username, password)
-        )
-
+        user = self._user_repository.create(User(username, password))
         return user
 
     def validate(self, username, password):

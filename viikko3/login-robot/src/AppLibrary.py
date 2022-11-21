@@ -10,10 +10,7 @@ class AppLibrary:
         self._user_repository = UserRepository()
         self._user_service = UserService(self._user_repository)
 
-        self._app = App(
-            self._user_service,
-            self._io
-        )
+        self._app = App(self._user_service, self._io)
 
     def input(self, value):
         self._io.add_input(value)
@@ -22,9 +19,7 @@ class AppLibrary:
         outputs = self._io.outputs
 
         if not value in outputs:
-            raise AssertionError(
-                f"Output \"{value}\" is not in {str(outputs)}"
-            )
+            raise AssertionError(f'Output "{value}" is not in {str(outputs)}')
 
     def run_application(self):
         self._app.run()
