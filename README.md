@@ -13,8 +13,10 @@
   [verkkokauppa-1](viikko2/verkkokauppa-1)
 
 ## viikko3
-  nhl-reader
+  [hello-robot](viikko3/hello-robot)
+  
+  [nhl-reader](viikko3/nhl-reader)
  
-  login-robot
+  [login-robot](viikko3/login-robot)
  
-  web-login-robot
+  [web-login-robot](viikko3/web-login-robot)
