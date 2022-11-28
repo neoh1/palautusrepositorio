@@ -20,3 +20,12 @@
   [login-robot](viikko3/login-robot)
  
   [web-login-robot](viikko3/web-login-robot)
+
+## viikko4
+  [mock-demo](viikko4/mock-demo)
+
+  [maksukortti-mock](viikko4/maksukortti-mock)
+
+  [tdd-ostoskori](viikko4/tdd-ostoskori)
+
+  [verkkokauppa](viikko4/verkkokauppa)
