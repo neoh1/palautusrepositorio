@@ -15,4 +15,4 @@ Kannustetaan saamaan kommentteja joka kategoriaan. Kommentit pistetään sopivaa
 
 Jopa 60min pituinen retrospektiivipalaveri, jossa käydään läpi sprintin ja tiimin hyvät ja huonot puolet, sekä asiat mitkä aiheuttavat tuskaa. Asiat äänestetään tärkeysjärjestykseen, jonka jälkeen niitä käydään läpi kunnes asiat tai aika loppuu. 
 
-Voidaan esimerkiksi jakaa valkotaulu kolmeen osaan; glad, sad, mad, ja osallistujat kirjoittavat lappuihin puheen aiheita ja pistävät oikeaan kategoriaan. Yksi henkilö ryhmittää samaa sisältöä olevat laput. Tämän jälkeen tehdään äänestys, jonka jälkeen retrospektiivin vetäjä johtaa keskustelua kunnes aiheet tai aika loppuu kesken.
+Voidaan esimerkiksi jakaa valkotaulu kolmeen osaan; glad, sad, mad, ja osallistujat kirjoittavat lappuihin puheen aiheita ja pistävät oikeaan kategoriaan. Yksi henkilö ryhmittää samaa sisältöä olevat laput. Tämän jälkeen tehdään äänestys, jonka jälkeen retrospektiivin vetäjä johtaa keskustelua kunnes aiheet tai aika loppuu kesken..
