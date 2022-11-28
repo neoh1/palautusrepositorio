@@ -30,6 +30,11 @@ class TestOstoskori(unittest.TestCase):
         self.assertEqual(self.kori.hinta(), 8)
 
     def test_kahden_saman_tuotteen_lisaamisen_jalkeen_ostoskorissa_kaksi_tavaraa(self):
-        for i in range(2):
+        for _ in range(2):
             self.kori.lisaa_tuote(self.maito)
         self.assertEqual(self.kori.tavaroita_korissa(), 2)
+
+    def test_kahden_saman_tuotteen_lisaamisen_jalkeen_ostoskorin_hinta_on_kaksi_kertaa_tuote(self):
+        for _ in range(2):
+            self.kori.lisaa_tuote(self.maito)
+        self.assertEqual(self.kori.hinta(), 6)
