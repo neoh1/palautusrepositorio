@@ -26,7 +26,13 @@ class Ostoskori:
 
     def poista_tuote(self, poistettava: Tuote):
         # poistaa tuotteen
-        ...
+        pnimi = poistettava.nimi()
+        try:
+            self._ostokset[pnimi].muuta_lukumaaraa(-1)
+            if self._ostokset[pnimi].lukumaara == 0:
+                del self._ostokset[pnimi]
+        except KeyError:
+            print("Ei voida poistaa, tuotetta ei ole ostoskorissa")
 
     def tyhjenna(self):
         ...
