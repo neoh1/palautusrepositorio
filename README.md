@@ -26,6 +26,8 @@
 
   [maksukortti-mock](viikko4/maksukortti-mock)
 
+  [verkkokauppa](viikko4/verkkokauppa)
+
   [tdd-ostoskori](viikko4/tdd-ostoskori)
 
-  [verkkokauppa](viikko4/verkkokauppa)
+
