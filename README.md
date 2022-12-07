@@ -33,3 +33,7 @@
 
 ## viikko5
   [tennis](viikko5/tennis)
+
+  [laskin](viikko5/laskin)
+
+  [int-joukko](viikko5/int-joukko)
