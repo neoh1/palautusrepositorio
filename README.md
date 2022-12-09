@@ -39,5 +39,6 @@
   [int-joukko](viikko5/int-joukko)
 
 ## viikko6
-[query-language](viikko6/query-language/)
-[PULL.md](PULL.md)
+  [query-language](viikko6/query-language/)
+
+  [PULL.md](PULL.md)
