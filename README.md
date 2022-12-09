@@ -40,3 +40,4 @@
 
 ## viikko6
 [query-language](viikko6/query-language/)
+[PULL.md](PULL.md)
