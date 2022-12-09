@@ -37,3 +37,6 @@
   [laskin](viikko5/laskin)
 
   [int-joukko](viikko5/int-joukko)
+
+## viikko6
+[query-language](viikko6/query-language/)
